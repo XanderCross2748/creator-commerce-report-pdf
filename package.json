@@ -1,0 +1,17 @@
+{
+  "name": "creator-commerce-report-pdf",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/report_pdf_creator.ts",
+    "test": "node --experimental-strip-types src/report_pdf_creator.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  }
+}
